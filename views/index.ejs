@@ -1,0 +1,25 @@
+<%- include header %>
+<%if(!user){%>
+<div class="container">
+    <div class="jumbotron">
+
+        <h1>欢迎来到MicroBlog</h1>
+
+        <p>MicroBlog是一个基于 Node.js 的试验站点</p>
+
+        <p>
+            <a class="btn btn-primary btn-lg" href="/login">登录</a>
+            <a class="btn btn-lg btn-default" href="/reg">立即注册</a>
+        </p>
+    </div>
+</div>
+<%} else{%>
+<%- include say %>
+<%}%>
+<%- include posts %>
+<script src="/javascripts/jquery-2.1.4.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+
+<%- include footer %>
+</body>
+</html>

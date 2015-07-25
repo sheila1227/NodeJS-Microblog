@@ -1,0 +1,34 @@
+<%- include header %>
+<div class="container">
+<form class="form-horizontal" method="post">
+  <fieldset>
+    <legend>用户登入</legend>
+    <div class="form-group">
+      <label class="control-label col-md-2" for="username">用户名</label>
+
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="username" name="username">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-md-2" for="password">口令</label>
+      <div class="col-md-6">
+        <input type="password" class="form-control" id="password" name="password">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-2"></div>
+      <div class="col-md-6">
+        <button type="submit" class="btn btn-primary">登录</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+</div>
+</div>
+<script src="/javascripts/jquery-2.1.4.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+
+<%- include footer %>
+</body>
+</html>

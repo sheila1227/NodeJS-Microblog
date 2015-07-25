@@ -1,0 +1,2 @@
+[2015-07-25 19:56:57.763] [INFO] normal - ::1 - - "GET / HTTP/1.1" 200 2521 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+[2015-07-25 19:56:57.860] [INFO] normal - ::1 - - "GET /favicon.ico HTTP/1.1" 404 998 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
