@@ -119,6 +119,7 @@ router.post('/login', function(req, res, next) {
                 return res.redirect('/');
             }else{
                 req.flash('error','密码错误');
+                return res.redirect('/login');
             }
         }
     });
